@@ -6,25 +6,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-ff4b4b)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> A lightweight Convolutional Neural Network (CNN) for classifying plant leaf diseases into **Healthy**, **Powdery Mildew**, and **Rust** — achieving **96.67% validation accuracy** with only **896K parameters**.
-
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Dataset](#-dataset)
-- [Model Architecture](#-model-architecture)
-- [Training Results](#-training-results)
-- [Installation](#-installation)
-- [Usage](#-usage)
-  - [Training the Model](#training-the-model)
-  - [Running the Streamlit App](#running-the-streamlit-app)
-- [Project Structure](#-project-structure)
-- [Team Members](#-team-members)
-- [Future Work](#-future-work)
-- [References](#-references)
-- [License](#-license)
+> A lightweight Convolutional Neural Network (CNN) for classifying plant leaf diseases into **Healthy**, **Powdery Mildew**, and **Rust** — achieving **96.67% validation accuracy** with only **896K parameters**
 
 ---
 
@@ -55,7 +37,7 @@ Plant diseases cause up to **40% annual crop yield loss** globally. Traditional 
 ## 📊 Dataset
 
 The dataset consists of leaf images categorized into three classes with a balanced distribution:
-
+(https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
 | Dataset Split | Healthy | Powdery | Rust | **Total** |
 |:-------------:|:-------:|:-------:|:----:|:---------:|
 | **Training**  | 458     | 430     | 434  | **1,322** |
